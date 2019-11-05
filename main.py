@@ -9,8 +9,6 @@ def saisie():
 #remplier  de tableau  de   note  de un eleve
 nbmat=saisie()
 def remplierListNote(nbmat):
-
-
     listNoteEleve = []
     for i in range(0, nbmat):
         note = float(input("donnee le note de  matier"))
@@ -18,8 +16,6 @@ def remplierListNote(nbmat):
             note = float(input("donnee le note de  matier"))
         listNoteEleve.append(note)
     return listNoteEleve
-
-
 
  #afficher le  note  d'un  eleve
 listnote = remplierListNote(nbmat)
